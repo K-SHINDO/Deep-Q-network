@@ -131,3 +131,4 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
                                frames=len(state_history), interval=200,repeat=False)
 
 HTML(anim.to_jshtml())
+
